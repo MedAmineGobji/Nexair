@@ -1,0 +1,536 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NexAir System — Expert en génie climatique, plomberie et protection incendie en Tunisie. Installation, maintenance CVC, Tebourba.">
+  <title>NexAir System — Génie Climatique · Plomberie · Incendie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- prevent dark-mode flash -->
+  <script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+</head>
+<body>
+
+  <!-- ── Preloader ── -->
+  <div id="preloader">
+    <div class="pl-inner">
+      <img src="nexair_logo.png" alt="NexAir System" class="pl-logo">
+      <div class="pl-bar"><div class="pl-fill"></div></div>
+    </div>
+  </div>
+
+  <header id="header">
+    <div class="header-inner container">
+      <a href="#hero" class="logo">
+        <img src="nexair_logo.png" alt="NexAir System" class="logo-img">
+      </a>
+      <nav id="nav">
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#process">Processus</a>
+        <a href="#references">Références</a>
+        <a href="#contact" class="nav-cta">Demander un devis</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Basculer le mode sombre">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about">À propos</a>
+      <a href="#services">Services</a>
+      <a href="#process">Processus</a>
+      <a href="#references">Références</a>
+      <a href="#contact">Demander un devis</a>
+      <button class="theme-toggle theme-toggle--mobile" id="themeToggleMobile" aria-label="Basculer le mode sombre">
+        <i class="fas fa-moon"></i> Mode sombre
+      </button>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1800&q=85&auto=format&fit=crop" alt="" loading="eager" fetchpriority="high">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        Tebourba, Tunisie &nbsp;&middot;&nbsp; Couverture Nationale
+      </div>
+      <h1 class="hero-title">
+        Solutions techniques<br>
+        <em>de haute performance</em>
+      </h1>
+      <p class="hero-sub">
+        Génie climatique, plomberie et protection incendie.<br>
+        De l'étude de faisabilité à la maintenance — NexAir System.
+      </p>
+      <div class="hero-actions">
+        <a href="#services" class="btn btn-gold"><i class="fas fa-layer-group"></i> Découvrir nos services</a>
+        <a href="#references" class="btn btn-ghost">Voir nos réalisations <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat">
+        <span class="hstat-n" data-target="150">0</span><span class="hstat-s">+</span>
+        <span class="hstat-l">Projets réalisés</span>
+      </div>
+      <div class="hstat-sep"></div>
+      <div class="hstat">
+        <span class="hstat-n" data-target="10">0</span><span class="hstat-s">+</span>
+        <span class="hstat-l">Ans d'expertise</span>
+      </div>
+      <div class="hstat-sep"></div>
+      <div class="hstat">
+        <span class="hstat-n" data-target="3">0</span>
+        <span class="hstat-l">Domaines maîtrisés</span>
+      </div>
+      <div class="hstat-sep"></div>
+      <div class="hstat">
+        <span class="hstat-n">24</span><span class="hstat-s">/7</span>
+        <span class="hstat-l">Disponibilité</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Clients strip ── -->
+  <section id="clients">
+    <div class="container">
+      <p class="clients-label">Ils nous font confiance</p>
+      <div class="clients-track">
+        <div class="clients-inner">
+          <!-- Lot 1 -->
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="Hikma_Pharmaceuticals-Logo.wine.png" alt="HIKMA Pharmaceuticals" class="cl-logo">
+            </div>
+            <span class="cl-name">HIKMA Pharmaceuticals</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="clinique-les-jasmins.png" alt="Cliniques Les Jasmins" class="cl-logo">
+            </div>
+            <span class="cl-name">Cliniques Les Jasmins</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="logo_tunis_airport.png" alt="Aéroport Tunis-Carthage" class="cl-logo">
+            </div>
+            <span class="cl-name">Aéroport Tunis-Carthage</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="LogoCodairPlus-300x77.png" alt="Condair Plus" class="cl-logo">
+            </div>
+            <span class="cl-name">Condair Plus</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="Pharma Clean Room.png" alt="Pharma Clean" class="cl-logo">
+            </div>
+            <span class="cl-name">Pharma Clean</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <!-- Lot 2 — doublon pour boucle infinie -->
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="Hikma_Pharmaceuticals-Logo.wine.png" alt="HIKMA Pharmaceuticals" class="cl-logo">
+            </div>
+            <span class="cl-name">HIKMA Pharmaceuticals</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="clinique-les-jasmins.png" alt="Cliniques Les Jasmins" class="cl-logo">
+            </div>
+            <span class="cl-name">Cliniques Les Jasmins</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="logo_tunis_airport.png" alt="Aéroport Tunis-Carthage" class="cl-logo">
+            </div>
+            <span class="cl-name">Aéroport Tunis-Carthage</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="LogoCodairPlus-300x77.png" alt="Condair Plus" class="cl-logo">
+            </div>
+            <span class="cl-name">Condair Plus</span>
+          </div>
+          <span class="cl-sep"></span>
+
+          <div class="cl-item">
+            <div class="cl-logo-wrap">
+              <img src="Pharma Clean Room.png" alt="Pharma Clean" class="cl-logo">
+            </div>
+            <span class="cl-name">Pharma Clean</span>
+          </div>
+          <span class="cl-sep"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-media reveal-left">
+        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=900&q=85&auto=format&fit=crop" alt="Équipe NexAir System" loading="lazy">
+        <div class="about-float-card">
+          <div class="afc-icon"><i class="fas fa-award"></i></div>
+          <div>
+            <strong>Qualité certifiée</strong>
+            <span>Normes techniques &amp; délais garantis</span>
+          </div>
+        </div>
+        <div class="about-deco"></div>
+      </div>
+      <div class="about-text reveal-right">
+        <p class="label">À propos de NexAir System</p>
+        <h2>Votre partenaire de confiance<br><span>en installations techniques</span></h2>
+        <p class="about-lead">Depuis notre siège à <strong>Tebourba</strong>, NexAir System intervient sur l'ensemble du territoire tunisien pour des prestations d'excellence en génie climatique, plomberie et sécurité incendie.</p>
+        <p class="about-body">Nous couvrons l'intégralité du cycle de vie de vos installations : de l'étude de faisabilité à la maintenance corrective. Nos équipes qualifiées interviennent sur des projets industriels, hospitaliers et tertiaires avec rigueur et réactivité.</p>
+        <div class="about-tags">
+          <span><i class="fas fa-check"></i> Secteur industriel</span>
+          <span><i class="fas fa-check"></i> Secteur hospitalier</span>
+          <span><i class="fas fa-check"></i> Secteur tertiaire</span>
+          <span><i class="fas fa-check"></i> Couverture nationale</span>
+        </div>
+        <a href="#contact" class="btn btn-navy">Parler de votre projet <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="label">Nos domaines d'intervention</p>
+        <h2>Des expertises techniques<br><span>à votre service</span></h2>
+      </div>
+      <div class="svc-tabs reveal">
+        <div class="tabs-nav" role="tablist">
+          <button class="tab-btn active" data-tab="tab-genie" role="tab" aria-selected="true">
+            <span class="tb-icon"><i class="fas fa-wind"></i></span>
+            <span class="tb-label">Génie Climatique</span>
+          </button>
+          <button class="tab-btn" data-tab="tab-plomberie" role="tab" aria-selected="false">
+            <span class="tb-icon"><i class="fas fa-faucet"></i></span>
+            <span class="tb-label">Plomberie</span>
+          </button>
+          <button class="tab-btn" data-tab="tab-incendie" role="tab" aria-selected="false">
+            <span class="tb-icon"><i class="fas fa-fire-extinguisher"></i></span>
+            <span class="tb-label">Incendie</span>
+          </button>
+        </div>
+
+        <div id="tab-genie" class="tab-panel active" role="tabpanel">
+          <div class="tab-layout">
+            <div class="tab-img-wrap">
+              <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=85&auto=format&fit=crop" alt="Génie climatique" loading="lazy">
+              <div class="tab-badge">
+                <i class="fas fa-wind"></i> Génie Climatique
+              </div>
+            </div>
+            <div class="tab-body">
+              <h3>Climatisation, Chauffage &amp; Ventilation</h3>
+              <p>Nous concevons et installons des systèmes thermiques sur mesure, adaptés à vos contraintes techniques et objectifs énergétiques.</p>
+              <ul class="svc-list">
+                <li><div class="sli blue"><i class="fas fa-temperature-low"></i></div><div><strong>Climatisation</strong><p>Split System, multi split et solutions VRV pour le tertiaire et les grands plateaux de bureaux.</p></div></li>
+                <li><div class="sli red"><i class="fas fa-fire"></i></div><div><strong>Chauffage</strong><p>Chaudières haute performance, pompes à chaleur, radiateurs et planchers chauffants.</p></div></li>
+                <li><div class="sli green"><i class="fas fa-fan"></i></div><div><strong>Ventilation &amp; Traitement d'air</strong><p>Gaines aérauliques, CTA, extraction industrielle et systèmes de filtration d'air.</p></div></li>
+                <li><div class="sli purple"><i class="fas fa-snowflake"></i></div><div><strong>Eau Glacée</strong><p>Installation de réseaux d'eau glacée pour groupes froids et systèmes VRF.</p></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-plomberie" class="tab-panel" role="tabpanel">
+          <div class="tab-layout">
+            <div class="tab-img-wrap">
+              <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=85&auto=format&fit=crop" alt="Plomberie sanitaire" loading="lazy">
+              <div class="tab-badge blue">
+                <i class="fas fa-faucet"></i> Plomberie
+              </div>
+            </div>
+            <div class="tab-body">
+              <h3>Réseaux Sanitaires &amp; Équipements</h3>
+              <p>De la conception à la mise en service, nous assurons l'intégralité de vos réseaux sanitaires avec des matériaux de qualité premium.</p>
+              <ul class="svc-list">
+                <li><div class="sli teal"><i class="fas fa-water"></i></div><div><strong>Réseaux Sanitaires</strong><p>Adduction d'eau, évacuation des eaux usées, tuyauterie PPR / Inox / Acier.</p></div></li>
+                <li><div class="sli blue"><i class="fas fa-bath"></i></div><div><strong>Équipement sanitaire</strong><p>Pose d'appareils sanitaires, robinetterie et aménagement de salles de bain clés en main.</p></div></li>
+                <li><div class="sli red"><i class="fas fa-temperature-high"></i></div><div><strong>Eau Chaude Sanitaire (ECS)</strong><p>Chauffe-eau électrique, thermodynamique ou solaire pour tout type de bâtiment.</p></div></li>
+                <li><div class="sli sky"><i class="fas fa-droplet"></i></div><div><strong>Eau Froide Sanitaire (EFS)</strong><p>Distribution EFS et raccordements CVC en tuyauterie PPR / Inox.</p></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-incendie" class="tab-panel" role="tabpanel">
+          <div class="tab-layout">
+            <div class="tab-img-wrap">
+              <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=85&auto=format&fit=crop" alt="Protection incendie" loading="lazy">
+              <div class="tab-badge red">
+                <i class="fas fa-fire-extinguisher"></i> Incendie
+              </div>
+            </div>
+            <div class="tab-body">
+              <h3>Sécurité &amp; Protection Incendie</h3>
+              <p>Des systèmes de protection conformes aux normes en vigueur pour garantir la sécurité de vos occupants et de votre patrimoine.</p>
+              <ul class="svc-list">
+                <li><div class="sli red"><i class="fas fa-fire"></i></div><div><strong>RIA — Robinet d'Incendie Armé</strong><p>Réseau de tuyauterie RIA pour une intervention rapide à l'intérieur du bâtiment.</p></div></li>
+                <li><div class="sli orange"><i class="fas fa-fire-extinguisher"></i></div><div><strong>Extincteurs</strong><p>Répartition stratégique d'extincteurs portatifs adaptés aux différents types de feux.</p></div></li>
+                <li><div class="sli slate"><i class="fas fa-wind"></i></div><div><strong>Désenfumage</strong><p>Systèmes naturels ou mécaniques pour l'évacuation des fumées et des gaz chauds.</p></div></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="label light">Notre méthode de travail</p>
+        <h2 class="light-h">Un processus rigoureux<br><span>à chaque projet</span></h2>
+      </div>
+      <div class="process-grid">
+        <div class="proc-step reveal" style="--d:.1s">
+          <div class="proc-num">01</div>
+          <div class="proc-icon"><i class="fas fa-magnifying-glass"></i></div>
+          <h4>Étude &amp; Faisabilité</h4>
+          <p>Analyse de vos besoins, audit des installations existantes et proposition d'une solution technique optimisée.</p>
+        </div>
+        <div class="proc-connector" aria-hidden="true"></div>
+        <div class="proc-step reveal" style="--d:.2s">
+          <div class="proc-num">02</div>
+          <div class="proc-icon"><i class="fas fa-screwdriver-wrench"></i></div>
+          <h4>Installation &amp; Mise en service</h4>
+          <p>Réalisation par nos techniciens certifiés, dans le respect strict des normes et des délais convenus.</p>
+        </div>
+        <div class="proc-connector" aria-hidden="true"></div>
+        <div class="proc-step reveal" style="--d:.3s">
+          <div class="proc-num">03</div>
+          <div class="proc-icon"><i class="fas fa-shield-halved"></i></div>
+          <h4>Maintenance &amp; Support</h4>
+          <p>Suivi préventif et correctif de vos installations pour garantir performance, sécurité et longévité.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="references">
+    <div class="container">
+      <div class="section-head center reveal">
+        <p class="label">Nos réalisations</p>
+        <h2>Des références dans les<br><span>secteurs les plus exigeants</span></h2>
+      </div>
+      <div class="ref-grid">
+        <article class="ref-card reveal" style="--d:.1s">
+          <div class="ref-img-wrap">
+            <img src="https://images.unsplash.com/photo-1563213126-a4273aed2016?w=700&q=80&auto=format&fit=crop" alt="Usine HIKMA" loading="lazy">
+          </div>
+          <div class="ref-body">
+            <span class="ref-tag">Industrie pharmaceutique</span>
+            <h4>Usine HIKMA</h4>
+            <p>Réseau complet de gaines aérauliques, sous supervision de Condair Plus.</p>
+          </div>
+        </article>
+        <article class="ref-card reveal" style="--d:.2s">
+          <div class="ref-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=700&q=80&auto=format&fit=crop" alt="Cliniques Les Jasmins" loading="lazy">
+          </div>
+          <div class="ref-body">
+            <span class="ref-tag">Santé — Salle d'opération ISO 5</span>
+            <h4>Cliniques Les Jasmins</h4>
+            <p>Système de traitement d'air pour 2 blocs opératoires, supervisé par Pharma Clean.</p>
+          </div>
+        </article>
+        <article class="ref-card reveal" style="--d:.3s">
+          <div class="ref-img-wrap">
+            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=700&q=80&auto=format&fit=crop" alt="Aéroport Tunis-Carthage" loading="lazy">
+          </div>
+          <div class="ref-body">
+            <span class="ref-tag">Transport aérien</span>
+            <h4>Aéroport Tunis-Carthage</h4>
+            <p>Réseaux aérauliques &amp; hydrauliques à l'international, sous supervision Condair Plus.</p>
+          </div>
+        </article>
+        <article class="ref-card reveal" style="--d:.4s">
+          <div class="ref-img-wrap">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80&auto=format&fit=crop" alt="CTA Condair Plus" loading="lazy">
+          </div>
+          <div class="ref-body">
+            <span class="ref-tag">Traitement d'air — CTA</span>
+            <h4>Centrales de Traitement d'Air</h4>
+            <p>Manutention, installation et réseaux aérauliques CTA, supervision Condair Plus.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="values">
+    <div class="container values-grid">
+      <div class="values-text reveal-left">
+        <p class="label">Pourquoi nous choisir</p>
+        <h2>L'excellence technique,<br><span>à chaque intervention</span></h2>
+        <p>NexAir System s'engage à vous fournir des prestations irréprochables, respectueuses des normes les plus exigeantes du secteur CVC en Tunisie et à l'international.</p>
+        <a href="#contact" class="btn btn-gold"><i class="fas fa-comments"></i> Obtenir un devis gratuit</a>
+      </div>
+      <div class="values-items reveal-right">
+        <div class="val-item">
+          <div class="val-icon"><i class="fas fa-certificate"></i></div>
+          <div><h4>Respect des normes</h4><p>Toutes nos réalisations respectent les réglementations techniques tunisiennes et internationales en vigueur.</p></div>
+        </div>
+        <div class="val-item">
+          <div class="val-icon"><i class="fas fa-clock"></i></div>
+          <div><h4>Délais garantis</h4><p>Engagement contractuel sur les délais d'exécution pour chaque chantier, sans compromis sur la qualité.</p></div>
+        </div>
+        <div class="val-item">
+          <div class="val-icon"><i class="fas fa-map-location-dot"></i></div>
+          <div><h4>Couverture nationale</h4><p>Depuis Tebourba, nos équipes qualifiées interviennent sur l'ensemble du territoire tunisien.</p></div>
+        </div>
+        <div class="val-item">
+          <div class="val-icon"><i class="fas fa-headset"></i></div>
+          <div><h4>Suivi &amp; Maintenance</h4><p>Service après installation assuré par nos techniciens pour garantir la pérennité de vos équipements.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container contact-layout">
+      <div class="contact-info reveal-left">
+        <p class="label light">Nous contacter</p>
+        <h2 class="light-h">Parlez-nous<br>de <span>votre projet</span></h2>
+        <p class="contact-desc">Nos experts sont disponibles pour analyser vos besoins et vous proposer une solution adaptée à votre budget et vos contraintes d'exploitation.</p>
+        <div class="contact-items">
+          <div class="ci"><div class="ci-ico"><i class="fas fa-location-dot"></i></div><div><strong>Siège social</strong><span>Tebourba, Tunisie</span></div></div>
+          <div class="ci"><div class="ci-ico"><i class="fas fa-phone"></i></div><div><strong>Téléphone</strong><span>+216 XX XXX XXX</span></div></div>
+          <div class="ci"><div class="ci-ico"><i class="fas fa-envelope"></i></div><div><strong>Email</strong><span>contact@nexairsystem.tn</span></div></div>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal-right">
+        <form id="contactForm" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Nom complet <sup>*</sup></label>
+              <input type="text" id="f-name" name="name" placeholder="Votre nom" required>
+            </div>
+            <div class="field">
+              <label for="f-email">Adresse email <sup>*</sup></label>
+              <input type="email" id="f-email" name="email" placeholder="vous@email.com" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-tel">Téléphone</label>
+              <input type="tel" id="f-tel" name="tel" placeholder="+216 XX XXX XXX">
+            </div>
+            <div class="field">
+              <label for="f-service">Service concerné</label>
+              <select id="f-service" name="service">
+                <option value="">— Sélectionner —</option>
+                <option value="climatique">Génie Climatique</option>
+                <option value="plomberie">Plomberie</option>
+                <option value="incendie">Incendie</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-msg">Message <sup>*</sup></label>
+            <textarea id="f-msg" name="message" rows="5" placeholder="Décrivez votre projet, vos contraintes techniques et vos délais..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold full">
+            <span>Envoyer la demande</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-note"><sup>*</sup> Champs obligatoires — Réponse sous 24 heures ouvrées</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <img src="nexair_logo.png" alt="NexAir System" class="logo-img logo-img--footer">
+        </div>
+        <p class="f-tagline">EXÉCUTION FLUIDE</p>
+        <p class="f-about">Expert en installations techniques CVC, plomberie et protection incendie en Tunisie depuis Tebourba.</p>
+        <div class="f-socials">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="f-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Génie Climatique</a></li>
+          <li><a href="#services">Plomberie</a></li>
+          <li><a href="#services">Protection Incendie</a></li>
+          <li><a href="#process">Notre processus</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h5>Entreprise</h5>
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#references">Références</a></li>
+          <li><a href="#values">Nos valeurs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h5>Contact</h5>
+        <ul class="f-contact-list">
+          <li><i class="fas fa-location-dot"></i> Tebourba, Tunisie</li>
+          <li><i class="fas fa-phone"></i> +216 XX XXX XXX</li>
+          <li><i class="fas fa-envelope"></i> contact@nexairsystem.tn</li>
+        </ul>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <div class="container f-bottom-inner">
+        <span>&copy; 2026 NexAir System. Tous droits réservés.</span>
+        <span>Tebourba, Tunisie — Exécution Fluide.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="tel:+21600000000" class="float-cta" id="floatCta" aria-label="Appelez-nous">
+    <i class="fas fa-phone"></i>
+    <span>Appel rapide</span>
+  </a>
+
+  <button id="btt" aria-label="Retour en haut de page">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
